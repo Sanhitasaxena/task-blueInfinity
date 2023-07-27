@@ -1,6 +1,6 @@
 export const PATIENT_DATA = [
     {
-        name: "sourabh",
+        name: "Sourabh Singh",
         age: 21,
         gender: "male",
         billNum: 283829,
@@ -10,8 +10,9 @@ export const PATIENT_DATA = [
 
     },
     {
-        name: "gaurabh",
-        age: 21,
+        name: "Gaurabh Chauhan",
+        age: 22,
+        gender: "male",
         billNum: 283829,
         date: 3232,
         time: 93748932,
@@ -20,6 +21,7 @@ export const PATIENT_DATA = [
     {
         name: "neeraj",
         age: 21,
+        gender: "male",
         billNum: 283829,
         date: 3232,
         time: 93748932,
@@ -28,6 +30,7 @@ export const PATIENT_DATA = [
     {
         name: "dheeraj",
         age: 21,
+        gender: "male",
         billNum: 283829,
         date: 3232,
         time: 93748932,
@@ -36,6 +39,7 @@ export const PATIENT_DATA = [
     {
         name: "adhiraj",
         age: 21,
+        gender: "male",
         billNum: 283829,
         date: 3232,
         time: 93748932,
