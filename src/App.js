@@ -12,7 +12,7 @@ function App() {
       <div className='desc-main-div'>
          <Header/>
          <div className='bill-header'>
-            <div>
+            <div className='billing-overview'>
               <h2>Billing Overview</h2>
               </div>
             <div className='calender'>

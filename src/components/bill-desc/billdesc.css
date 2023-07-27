@@ -9,9 +9,9 @@
     background-color: white;
     height: 600px;
     width: 700px;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 20px;
-    margin-top: -5px;
+    margin-top: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,4 +116,64 @@
 
 .content-table{
     height: 229px;
+}
+
+/* responsive dessign */
+@media screen and (max-width: 1026px){
+    .bill-desc-main{
+        padding-left: 10px;
+    }
+
+    .bill{
+        margin-top: 0px;
+    }
+
+    
+}
+
+@media screen and (max-width: 770px){
+    .bill-desc-main{
+        /* overflow-x: hidden; */
+        flex-direction: column;
+    }
+
+    .bill{
+        width: 560px;
+    }
+
+    .card-parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 427px){
+    .bill-desc-main{
+        /* overflow-x: hidden; */
+        flex-direction: column;
+    }
+
+    .bill{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .desc-main-div {
+        width: 100%;
+    }
+
+    .bill-header{
+        flex-direction: column;
+    }
+
+    .calender{
+        font-size: 14px;
+    }
+
+    
+
+    
 }

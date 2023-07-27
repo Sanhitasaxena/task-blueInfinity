@@ -3,10 +3,12 @@
     align-items: center;
     /* gap: 30px; */
     justify-content: space-between;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 30px;
     background-color: #F3F3F3;
     border-top-left-radius: 20px;
 }
+
 
 .btn{
     color: white;
@@ -23,7 +25,14 @@
 .search-bar{
     width: 65%;
     margin-top: -16px;
+    /* display: flex;
+    align-items: center;
+    gap: 10px; */
     /* background-color: red; */
+}
+
+.burger{
+    font-size: 10px;
 }
 
 .search-bar input{
@@ -46,6 +55,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-right: 10px;
     /* justify-content: space-evenly; */
     /* background-color: pink; */
 }
@@ -59,4 +69,43 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* responsive design */
+@media screen and (max-width: 1026px){
+    .header-main{
+        /* background-color: pink; */
+    }
+
+    .search-bar input{
+        width: 90%;
+    }
+
+    .header-main{
+        padding-left: 10px;
+    }
+
+    .btn{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .search-bar input {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 427px){
+    .header-main{
+        flex-direction: column;
+    }
+
+    .nav-items{
+        margin-top: 10px;
+    }
+
+    .search-bar{
+        margin-left: -40px;
+    }
 }

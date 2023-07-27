@@ -48,3 +48,35 @@
 .billing-nvlink{
     background-color: rgba(151, 149, 205, 1);
 }
+
+/* responsive design */
+@media screen and (max-width: 1026px){
+    .sidebar-Main{
+        /* background-color: #fff; */
+    }
+
+    .icon{
+        font-size: 13px;
+    }
+
+
+}
+
+@media screen and (max-width: 770px){
+    .logo-and-link{
+        height: 26%;
+    }
+
+    .icon{
+        gap: 17px;
+        padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 427px){
+    .sidebar-Main{
+        /* visibility: hidden; */
+        display: none;
+        width: 0px;
+    }
+}

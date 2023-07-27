@@ -26,6 +26,7 @@
   align-items: center;
   border-radius: 5px;
   height: 38px;
+  margin-right: 10px;
 }
 
 .arrow-btn{
@@ -34,4 +35,23 @@
   background-color: rgba(49, 46, 129, 1);
   border-radius: 5px;
   color: white;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 770px){
+  .billing-overview{
+    padding-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 1026px){
+  .billing-overview{
+    padding-left: 10px;
+  }
+
+  .billing-overview h1{
+    font-size: 10px;
+  }
 }

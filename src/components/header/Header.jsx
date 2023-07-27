@@ -2,10 +2,12 @@ import React from 'react'
 import "../header/header.css"
 import {FiBell} from 'react-icons/fi'
 import {GoSearch} from 'react-icons/go'
+import { Twirl as Hamburger } from 'hamburger-react'
 
 const Header = () => {
   return (
     <div className='header-main'>
+      
        <div className='search-bar'>
           <span className='search-icon'><GoSearch/></span>
           <input placeholder='Search'/>

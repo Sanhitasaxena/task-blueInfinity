@@ -6,7 +6,7 @@ import { PATIENT_DATA } from "../../data/data";
 const BillDesc = () => {
   return (
     <div className="bill-desc-main">
-      <div>
+      <div className="card-parent">
         {PATIENT_DATA.map((patient) => {
           return <Card data={patient} />;
         })}
